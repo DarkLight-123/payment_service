@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     app_name: str = "payment-processing-service"
     app_env: str = "dev"
     api_v1_prefix: str = "/api/v1"
-    api_key: str = "super-secret-api-key"
+    api_key: str = "dev-api-key"
 
     postgres_db: str = "payments_db"
     postgres_user: str = "payments_user"
